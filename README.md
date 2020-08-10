@@ -5,4 +5,4 @@
 In this project, our goal is to write a software pipeline to detect vehicles in a video provided by Udacity. 
 
 ## Pipeline
-
+* Train a SVM classfier by extracting spatial features, color features and Histogram of gradients from the labeled training data set.
