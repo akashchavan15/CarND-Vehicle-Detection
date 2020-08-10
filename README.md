@@ -20,6 +20,7 @@ from both classes of the dataset. <br />
 
 ### Feature Extraction
 #### Color Histogram
-RGB image is first converted into YCrCb color space and the color histogram is computed for each color channel for both Car image and Non Car image.  <br />
+RGB image is first converted into YCrCb color space and the color histogram is computed for each color channel for both Car image and Non Car image.
+These histogram features then added to final feature vector. <br />
 <img src="output_images/Car1.png" width="480" alt="Car" /> <img src="output_images/Car_Color_Hist1.png" width="480" alt="Non Car" /> <br />
 <img src="output_images/Not_Car1.png" width="480" alt="Non Car" /> <img src="output_images/Not_Car_Color_Hist1.png" width="480" alt="Not_Car_Color_Hist" />
