@@ -61,6 +61,13 @@ class AdvanceLaneLines:
         return cmb_binary
 
     def __find_lane_lines(self,bin_warped_img,undist_img,col_warped_img = None):
+        """
+        Finds lane lines in input image
+        :param bin_warped_img: binary warped image
+        :param undist_img: undistorted image
+        :param col_warped_img: color warped image
+        :return: output image with lane lines 
+        """
         if self.fll.debug:
            if self.fll.first_image:
                sliding_window_img,final_warped_img = self.fll.fit_polynomial(self.ti.invM,bin_warped_img,undist_img,col_warped_img)
