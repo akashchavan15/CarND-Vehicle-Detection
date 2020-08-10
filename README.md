@@ -15,6 +15,6 @@ In this project, our goal is to write a software pipeline to detect vehicles in 
   
 ### Data Exploration
 I began by loading all of the vehicle and non-vehicle image paths from the provided dataset. The figure below shows a random sample of image 
-from both classes of the dataset.
+from both classes of the dataset. <br />
 <img src="output_images/Car.png" width="480" alt="Car" /> <img src="output_images/Not_Car.png" width="480" alt="Non Car" />
 
