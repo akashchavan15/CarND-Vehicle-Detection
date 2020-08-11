@@ -24,3 +24,8 @@ RGB image is first converted into YCrCb color space and the color histogram is c
 These histogram features then added to final feature vector. <br />
 <img src="output_images/Car1.png" width="480" alt="Car" /> <img src="output_images/Car_Color_Hist1.png" width="480" alt="Non Car" /> <br />
 <img src="output_images/Not_Car1.png" width="480" alt="Non Car" /> <img src="output_images/Not_Car_Color_Hist1.png" width="480" alt="Not_Car_Color_Hist" />
+
+#### Spatial Binning
+Spatial Binning is applied to each image with the size of 32 * 32. The resultant feature vector goes into final feature vector. <br />
+<img src="output_images/Car1.png" width="480" alt="Car" /> <img src="output_images/Spatially_Binned_Car.png" width="480" alt="Spatially_Binned_Car" /> <br />
+<img src="output_images/Not_Car1.png" width="480" alt="Non Car" /> <img src="output_images/Spatially_Binned_Not_Car.png" width="480" alt="Spatially_Binned_Not_Car" />
