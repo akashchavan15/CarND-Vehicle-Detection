@@ -50,3 +50,5 @@ By doing trying different combinations of parameters, finally I came up with fol
 ### Training Classifier
 I used LinearSVC classifier with StandardScaler. Total number of vehicle images and non vehicle images in dataset were 8917 and 8968. Twenty percent of 
 the data set was reserved as test data set. Since the number of positive and negative images were almost equal, there was no issue of data sparcity. Classifier accuracy on test dataset was was 99.16 % and it took 2.98 seconds to train.
+
+### Sliding Window Search
