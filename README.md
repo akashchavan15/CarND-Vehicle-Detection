@@ -46,3 +46,7 @@ By doing trying different combinations of parameters, finally I came up with fol
 
 <img src="output_images/Car1.png" width="480" alt="Car" /> <img src="output_images/HOG_Y.png" width="480" alt="HOG_Y" />  <img src="output_images/HOG_Cr.png" width="480" alt="HOG_Cr" /> <img src="output_images/HOG_Cb.png" width="480" alt="HOG_Cb" /> <br />
 <img src="output_images/Not_Car1.png" width="480" alt="Car" /> <img src="output_images/Not_Car_HOG_Y.png" width="480" alt="Not_Car_HOG_Y" />  <img src="output_images/Not_Car_HOG_Cr.png" width="480" alt="Not_Car_HOG_Cr" /> <img src="output_images/Not_Car_HOG_Cb.png" width="480" alt="Not_Car_HOG_Cb" /> <br />
+
+### Training Classifier
+I used LinearSVC classifier with StandardScaler. Total number of vehicle images and non vehicle images in dataset were 8917 and 8968. Twenty percent of 
+the data set was reserved as test data set. Since the number of positive and negative images were almost equal, there was no issue of data sparcity. Classifier accuracy on test dataset was was 99.16 % and it took 2.98 seconds to train.
