@@ -60,3 +60,12 @@ If the classifier classifies the window as containing the vehicle, then a new en
 <img src="output_images/Sliding_Window_Scale_2_Third_Row.png" width="480" alt="Sliding_Window" /> <img src="output_images/Sliding_Window_Scale_3_Fourth_Row.png" width="480" alt="Sliding_Window_Scale_1_5_Second_Row" /><br />
 <img src="output_images/Sliding_Window_Scale_3_Fourth_Row.png" width="480" alt="Sliding_Window" /> <img src="output_images/Heat_Map.png" width="480" alt="Heat_Map" /><br />
 <img src="output_images/Final_Output.png" width="480" alt="Final_Output" /><br />
+
+## Outcome
+The proposed approach works great on the test images and project video. The problems I faced while coming up with this solution was mainly in feature extraction and 
+classifier's accuracy and performance. Classifier behaved differently on different color spaces and that's why it took some manual efforts to come up with best color space
+for the task in hand. Though this brute force solution of sliding window search works fine for the problem in hand, I think Deep Learning approach using
+Single Short Detectors like YOLO, Fast-RCNN would be more performance effective. 
+
+In the final solution I have also integrated the advance lane lines solution with this and ran the project video through both the pipelines. The project video can be found
+at  [video](https://github.com/akashchavan15/CarND-Vehicle-Detection/blob/master/output_images/project_video.mp4)
