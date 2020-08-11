@@ -38,3 +38,8 @@ By doing trying different combinations of parameters, finally I came up with fol
 | Color Space   | YCrCb         |
 | HOG Orient    | 9             |   
 | HOG Pixels per cell | 8       |  
+| HOG Cell per block |2       |  
+| HOG Channels | All       | 
+| Spatial bin size | (32,32)       | 
+| Histogram bins| 32       | 
+| Histogram range| (0,256)       | 
