@@ -67,5 +67,4 @@ classifier's accuracy and performance. Classifier behaved differently on differe
 for the task in hand. Though this brute force solution of sliding window search works fine for the problem in hand, I think Deep Learning approach using
 Single Short Detectors like YOLO, Fast-RCNN would be more performance effective. 
 
-In the final solution I have also integrated the advance lane lines solution with this and ran the project video through both the pipelines. The project video can be found
-at  [video](https://github.com/akashchavan15/CarND-Vehicle-Detection/blob/master/output_images/project_video.mp4)
+In the final solution I have merged advance lane lines and vehicle detection pipelines together and ran the project video through both the pipelines. The project video can be found at  [video](https://github.com/akashchavan15/CarND-Vehicle-Detection/blob/master/output_images/project_video.mp4)
