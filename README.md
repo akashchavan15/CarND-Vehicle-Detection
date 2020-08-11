@@ -43,3 +43,5 @@ By doing trying different combinations of parameters, finally I came up with fol
 | Spatial bin size | (32,32)       | 
 | Histogram bins| 32       | 
 | Histogram range| (0,256)       | 
+
+<img src="output_images/Car1.png" width="480" alt="Car" /> <img src="output_images/HOG_Y.png.png" width="480" alt="HOG_Y" />  <img src="output_images/HOG_Cr.png" width="480" alt="HOG_Cr" /> <img src="output_images/HOG_Cb.png" width="480" alt="HOG_Cb" /> <br />
